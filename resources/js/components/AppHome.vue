@@ -25,6 +25,8 @@
         <br>
         <label style="display: block;" for="todo-content">Content</label>
         <textarea name="todo_content" id="todo-content" v-model="todo.content"></textarea>
+        <br>
+        <button>Update Todo</button>
       </div>
     </div>
 

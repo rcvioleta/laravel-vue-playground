@@ -1799,6 +1799,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -38470,7 +38472,11 @@ var render = function() {
                     _vm.$set(todo, "content", $event.target.value)
                   }
                 }
-              })
+              }),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("button", [_vm._v("Update Todo")])
             ])
           })
         ],
